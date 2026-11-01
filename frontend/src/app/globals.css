@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --fleet-plum: #362F4F;
+  --fleet-plum-dark: #27213A;
+  --fleet-plum-subtle: #F0EEF5;
+  --fleet-lime: #E4FF30;
+  --fleet-lime-hover: #D6F51E;
+  --fleet-bg: #F6F7F5;
+  --fleet-surface: #FFFFFF;
+  --fleet-surface-raised: #FBFCFA;
+  --fleet-text-primary: #20212A;
+  --fleet-text-secondary: #6E707A;
+  --fleet-text-muted: #92949C;
+  --fleet-border: #E7E8E4;
+  --fleet-success: #23845B;
+  --fleet-warning: #B7791F;
+  --fleet-danger: #C84C4C;
+  --fleet-info: #3976B8;
+}
+
+body {
+  background-color: var(--fleet-bg);
+  color: var(--fleet-text-primary);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular numerals for numbers and IDs */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
